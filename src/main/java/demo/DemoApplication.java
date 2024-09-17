@@ -119,7 +119,7 @@ public class DemoApplication {
     //        auth.inMemoryAuthentication().withUser("test").password("password").roles("USER");
     //    }
 
-    @Autowired
+     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         //        StandardPasswordEncoder encoder = new StandardPasswordEncoder();
         //        users.deleteAll();
